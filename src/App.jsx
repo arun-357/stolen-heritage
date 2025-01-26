@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Loader from "./components/Loader";
 import Navbar from "./sections/Navbar";
+import Hero from "./sections/Hero";
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -27,7 +28,10 @@ export default function App() {
           <Loader />
         </div>
       ) : (
-        <Navbar />
+        <>
+          <Navbar />
+          <Hero />
+        </>
       )}
     </>
   );
