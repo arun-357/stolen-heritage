@@ -1,6 +1,6 @@
 import { Suspense, useRef } from "react";
 import { Canvas, useFrame, useThree } from "@react-three/fiber";
-import { Center, OrbitControls } from "@react-three/drei";
+import { Center } from "@react-three/drei";
 import { Vector3 } from "three";
 import CanvasLoader from "../components/CanvasLoader.jsx";
 import ShivaNataraja from "../components/ShivaNataraja.jsx";
